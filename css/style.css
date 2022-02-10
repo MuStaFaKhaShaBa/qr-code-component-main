@@ -1,0 +1,45 @@
+* {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0px hsla(219, 15%, 55%, 0.507);
+}
+.container figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+.container figure figcaption {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 20px;
+    color: hsl(218, 44%, 22%);
+}
+.container p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20PX 15PX;
+}
+/*
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+*/
